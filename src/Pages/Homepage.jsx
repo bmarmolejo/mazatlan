@@ -1,7 +1,6 @@
 import Hero from "../components/Hero/Hero";
 import Sebastian from "../components/Sebastian/Sebastian";
-
-// import Gallery from "../components/Gallery/Galery";
+import Gallery from "../components/Gallery/Gallery";
 // import BookCar from "../components/BookCar";
 // import PlanTrip from "../components/PlanTrip";
 // import PickCar from "../components/PickCar";
@@ -17,6 +16,8 @@ function Home() {
     <>
       <Hero />
       <Sebastian />
+      <Gallery />
+
       {/* <BookCar />
       <PickCar />
       <Banner />
