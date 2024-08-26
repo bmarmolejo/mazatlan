@@ -1,16 +1,14 @@
-import{ Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import BgShape from "../../assets/images/hero-bg.jpg";
-// import HeroImg from "../../assets/images/hero-bg.jpg";
 import { useEffect, useState } from "react";
 import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
 import "./Hero.scss";
-
 
 function Hero() {
   const [goUp, setGoUp] = useState(false);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: (0, 0), behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const bookBtn = () => {
@@ -31,6 +29,7 @@ function Hero() {
       window.removeEventListener("scroll", onPageScroll);
     };
   }, []);
+
   return (
     <>
       <section id="home" className="hero-section">
@@ -40,10 +39,10 @@ function Hero() {
             <div className="hero-content__text">
               <h4>Experience the Charm of Mazatlán Before It’s Unveiled</h4>
               <h1>
-                Secure your stay <span>now! </span>Limited availability.
+                Secure your stay <span>now! </span>
               </h1>
               <p>
-              Discover a unique opportunity to stay at our brand-new, soon-to-be-completed apartment in the heart of Mazatlán. While construction wraps up and the final touches are added, we're opening our doors exclusively to family and friends at a special rate. Be among the first to enjoy this modern space, designed with comfort and relaxation in mind, just steps away from Mazatlán’s stunning beaches and vibrant culture.
+                Discover a unique opportunity to stay at our brand-new, soon-to-be-completed apartment in the heart of Mazatlán. While construction wraps up and the final touches are added, we're opening our doors exclusively to family and friends at a special rate. Be among the first to enjoy this modern space, designed with comfort and relaxation in mind, just steps away from Mazatlán’s stunning beaches and vibrant culture.
               </p>
               <div className="hero-content__text__btns">
                 <Link
@@ -53,22 +52,16 @@ function Hero() {
                 >
                   Book Condo &nbsp; <IconCircleCheck />
                 </Link>
-                <Link className="hero-content__text__btns__learn-more" to="/">
+                <Link
+                  className="hero-content__text__btns__learn-more"
+                  to="/learn"
+                >
                   Learn More &nbsp; <IconChevronRight />
                 </Link>
               </div>
             </div>
-
-            {/* img */}
-            {/* <img
-              src={HeroImg}
-              alt="mazatlan-img"
-              className="hero-content__sebastian-img"
-            /> */}
           </div>
         </div>
-
-        {/* page up */}
         <div
           onClick={scrollToTop}
           className={`scroll-up ${goUp ? "show-scroll" : ""}`}
