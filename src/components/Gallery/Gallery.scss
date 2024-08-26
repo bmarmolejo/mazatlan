@@ -1,0 +1,55 @@
+@use "../../styles/global/" as *;
+
+.container {
+  background-color: $bg-white;
+  padding: 7.3rem 0;
+}
+
+.mazatlan-container {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    margin: 0 auto;
+    text-align: center;
+    color: $text-teal;
+
+    h3 {
+      font-size: $h3-size;
+      font-family: $text-font;
+      font-weight: 500;
+      color: $text-teal;
+    }
+
+    h2 {
+      font-size: $h2-size;
+      font-family: $titles-font;
+      margin: 1.3rem 0 3rem 0;
+      color: $text-teal
+    }
+  }
+}
+  .mazatlan-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    width: 100%;
+  
+    &__item {
+      overflow: hidden;
+      border-radius: 8px;
+  
+      img {
+        width: auto;
+        height: 20rem;
+        display: block;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+  
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+  
