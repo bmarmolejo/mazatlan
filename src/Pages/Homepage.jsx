@@ -1,9 +1,9 @@
 import Hero from "../components/Hero/Hero";
 import Sebastian from "../components/Sebastian/Sebastian";
 import Gallery from "../components/Gallery/Gallery";
-// import BookCar from "../components/BookCar";
+import BookCondo from "../components/BookCondo/BookCondo";
 // import PlanTrip from "../components/PlanTrip";
-// import PickCar from "../components/PickCar";
+// import PickCar from "../components/PickDates/PickDates";
 // import Banner from "../components/Banner";
 // import ChooseUs from "../components/ChooseUs";
 // import Testimonials from "../components/Testimonials";
@@ -15,17 +15,20 @@ function Home() {
   return (
     <>
       <Hero />
+      <BookCondo />
+      {/* <PickDates /> */}
       <Sebastian />
       <Gallery />
 
-      {/* <BookCar />
-      <PickCar />
+
+      {/*
       <Banner />
       <ChooseUs />
       <Testimonials />
       <Faq />
       <Download />
-      <Footer /> */}
+      <Footer /> 
+      */}
     </>
   );
 }
