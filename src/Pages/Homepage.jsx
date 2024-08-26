@@ -1,7 +1,7 @@
 import Hero from "../components/Hero/Hero";
 import Sebastian from "../components/Sebastian/Sebastian";
 import Gallery from "../components/Gallery/Gallery";
-import BookCondo from "../components/BookCondo/BookCondo";
+// import BookCondo from "../components/BookCondo/BookCondo";
 // import PlanTrip from "../components/PlanTrip";
 // import PickCar from "../components/PickDates/PickDates";
 // import Banner from "../components/Banner";
@@ -15,7 +15,7 @@ function Home() {
   return (
     <>
       <Hero />
-      <BookCondo />
+      {/* <BookCondo /> */}
       {/* <PickDates /> */}
       <Sebastian />
       <Gallery />

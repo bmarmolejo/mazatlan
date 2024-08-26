@@ -237,7 +237,6 @@ function BookCondo() {
             </div>
           </div>
         </div>
-
         {/* personal info */}
         <div className="booking-modal__person-info">
           <h4>Personal Information</h4>

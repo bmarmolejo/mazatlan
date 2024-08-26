@@ -14,9 +14,7 @@ function Hero() {
   };
 
   const bookBtn = () => {
-    document
-      .querySelector("#booking-section")
-      .scrollIntoView({ behavior: "smooth" });
+    window.location.href = 'https://form.jotform.com/242377954527266';
   };
 
   useEffect(() => {

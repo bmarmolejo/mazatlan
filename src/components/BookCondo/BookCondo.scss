@@ -2,7 +2,6 @@
 
 .book-section {
   position: relative;
-
   background: linear-gradient(to bottom, $bg-gray 20%, $bg-white 80%);
 }
 
@@ -20,10 +19,10 @@
     z-index: 4;
     color: white;
     border-radius: 5px;
-    background-image: url("/src/images/book-car/book-bg.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-image: url("/src/images/book-car/book-bg.png");
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     display: flex;
     flex-direction: column;
     color: $text-black;
