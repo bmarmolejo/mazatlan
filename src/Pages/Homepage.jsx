@@ -4,7 +4,7 @@ import Gallery from "../components/Gallery/Gallery";
 // import BookCondo from "../components/BookCondo/BookCondo";
 // import PlanTrip from "../components/PlanTrip";
 // import PickCar from "../components/PickDates/PickDates";
-import Banner from "../components/Banner/Banner";
+// import Banner from "../components/Banner/Banner";
 // import ChooseUs from "../components/ChooseUs";
 // import Testimonials from "../components/Testimonials";
 // import Faq from "../components/Faq";
@@ -18,7 +18,7 @@ function Home() {
       {/* <BookCondo /> */}
       {/* <PickDates /> */}
       <Sebastian />
-      <Banner />
+      {/* <Banner /> */}
       <Gallery />
 
 
