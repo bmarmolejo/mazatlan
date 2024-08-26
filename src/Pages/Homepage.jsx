@@ -18,7 +18,7 @@ function Home() {
       {/* <BookCondo /> */}
       {/* <PickDates /> */}
       <Sebastian />
-      <Banner />
+      {/* <Banner /> */}
       <Gallery />
 
 
