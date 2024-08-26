@@ -106,8 +106,11 @@
 
         &:hover {
           box-shadow: 0 10px 15px 0 rgba(4, 95, 95, 0.35);
-          background-color: $bg-sand;
-          border: 2px solid $bg-sand;
+          border-radius: 50px;
+          transition: all 0.3s ease 0s;
+          color: $text-black;
+          // background-color: $bg-sand;
+          // border: 2px solid $bg-sand;
         }
       }
 
@@ -119,8 +122,10 @@
         transition: all 0.3s;
 
         &:hover {
-          background-color: transparent;
+          background-color: $bg-sand;
           color: $text-black;
+          border-radius: 50px;
+          transition: all 0.3s ease 0s;
         }
       }
     }
