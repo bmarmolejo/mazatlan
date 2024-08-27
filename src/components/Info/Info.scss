@@ -11,7 +11,7 @@
     flex-direction: column;
   
     &__img {
-      width: 90%;
+      width: 80%;
       height: auto;
       margin: 0 auto;
   
@@ -19,6 +19,18 @@
         width: 100%;
       }
     }
+
+    &__img2 {
+        width: 90%;
+        height: auto;
+        display: block; /* Ensures the image is treated as a block element */
+        margin: 0 auto; /* Centers the image horizontally */
+        padding-top: 3rem;
+      
+        @media (max-width: 550px) {
+          width: 100%;
+        }
+      }
   }
   
   .text-container {
@@ -51,14 +63,14 @@
         margin-bottom: 0.7rem;
         font-weight: 600;
         font-family: $text-font;
-        color: $text-teal;
+        color: $bg-sand;
       }
   
       h2 {
         font-size: $h2-size;
         line-height: 1.2;
         margin-bottom: 2rem;
-        color: $bg-sand;
+        color: $text-teal;
       }
   
       p {
@@ -119,7 +131,7 @@
   
           h4 {
             font-size: $h3-size;
-            color: $text-teal;
+            color: $bg-sand;
           }
   
           p {

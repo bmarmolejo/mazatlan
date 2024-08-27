@@ -16,6 +16,7 @@ function Hero() {
   };
 
   useEffect(() => {
+
     const onPageScroll = () => {
       if (window.pageYOffset > 600) {
         setGoUp(true);

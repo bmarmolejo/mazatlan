@@ -2,6 +2,8 @@ import MainImg from "../../assets/info/main.png";
 import Box1 from "../../assets/info/icon1.png";
 import Box2 from "../../assets/info/icon2.png";
 import Box3 from "../../assets/info/icon3.png";
+import MainImg2 from "../../assets/info/main2.png";
+
 
 import "./Info.scss";
 
@@ -62,6 +64,11 @@ function Info() {
               </div>
             </div>
           </div>
+          <img
+              className="choose-container__img2"
+              src={MainImg2}
+              alt="maztlan apartment"
+            />
         </div>
       </section>
     </>
