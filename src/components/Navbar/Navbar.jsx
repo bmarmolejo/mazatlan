@@ -19,16 +19,6 @@ function Navbar() {
           </div>
           <ul className="mobile-navbar__links">
             <li>
-              <a onClick={openNav} href="#home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a onClick={openNav} href="#about">
-                About
-              </a>
-            </li>
-            <li>
               <a onClick={openNav} href="#learn">
                 Learn More
               </a>
@@ -48,22 +38,7 @@ function Navbar() {
 
         {/* desktop */}
         <div className="navbar">
-          <div className="navbar__img">
-            <a href="#home" onClick={() => window.scrollTo(0, 0)}>
-              {/* <img src={Logo} alt="logo-img" /> */}
-            </a>
-          </div>
           <ul className="navbar__links">
-            <li>
-              <a className="home-link" href="#home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="about-link" href="#about">
-                About
-              </a>
-            </li>
             <li>
               <a className="learn-link" href="#learn">
                 Learn More
@@ -75,12 +50,24 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <Link className="contact-link" to="/contact">
+              <Link className="contact-link" to="https://form.jotform.com/242406484410248">
                 Contact
               </Link>
             </li>
           </ul>
+          <div className="navbar__buttons">
+          <div className="navbar__buttons">
+            {/* <Link className="navbar__buttons__contact" to="/">
+              Contact Us
+            </Link> */}
+          </div>
+            <Link className="navbar__buttons__booking" to="https://form.jotform.com/242377954527266">
+              Book Now
+            </Link>
+          </div>
+          
         </div>
+        
       </nav>
     </>
   );

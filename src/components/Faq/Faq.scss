@@ -58,7 +58,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 3px 6px 0 rgba(49, 72, 83, 0.35);
     padding: 1.8rem 4.5rem;
     transition: 0.15s ease;
 
@@ -101,5 +101,5 @@
 .active-question {
   background-color: $text-teal;
   color: white;
-  box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+  box-shadow: 0 10px 15px 0 rgba(49, 72, 83, 0.35);
 }
