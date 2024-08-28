@@ -1,12 +1,11 @@
 # Mazatlán Booking Website
 
-Welcome to the repository for the Mazatlán Booking Website! This site is designed to facilitate bookings for family and friends in the beautiful coastal city of Mazatlán. The website provides a seamless experience for users to browse available condos, learn about the area, and make reservations with ease.
+Welcome to the repository for the Mazatlán Booking Website! This site is designed to facilitate bookings for family and friends in the beautiful coastal city of Mazatlán. 
 
 ## Features
 
-- **Home Section**: A welcoming section that introduces users to the site and highlights the charm of Mazatlán.
-- **About Section**: Information about the condos, amenities, and what makes Mazatlán an ideal vacation destination.
-- **Booking Section**: A user-friendly interface to browse available condos and make reservations directly through the site.
+- **Home Section**: A welcoming section that introduces users to the site.
+- **About Section**: Information about the condo and amenities.
 - **Gallery**: A visual showcase of the condos and the surrounding areas, giving users a glimpse of what to expect.
 - **FAQ**: A comprehensive list of frequently asked questions to assist users in planning their stay.
 
@@ -21,8 +20,8 @@ Welcome to the repository for the Mazatlán Booking Website! This site is design
 
 To view the site locally:
 
-1. Clone this repository: `git clone https://github.com/bmarmolejo/mazatlan-booking.git`
-2. Navigate into the project directory: `cd mazatlan-booking`
+1. Clone this repository: `git clone https://github.com/bmarmolejo/mazatlan.git`
+2. Navigate into the project directory: `cd mazatlan`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open your browser and visit `http://localhost:3000`
