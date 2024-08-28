@@ -23,8 +23,8 @@
     &__img2 {
         width: 90%;
         height: auto;
-        display: block; /* Ensures the image is treated as a block element */
-        margin: 0 auto; /* Centers the image horizontally */
+        display: block; 
+        margin: 0 auto; 
         padding-top: 3rem;
       
         @media (max-width: 550px) {
