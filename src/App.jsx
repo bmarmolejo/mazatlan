@@ -1,33 +1,23 @@
 import React from "react";
 import "../src/styles/styles.scss";
-// import About from "./Pages/About";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from "./Pages/Homepage";
-// import Navbar from "../src/components/Navbar";
-import { Route, Routes } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
+import Navbar from "../src/components/Navbar/Navbar";
 import Sebastian from "./components/Sebastian/Sebastian";
-// import Models from "./Pages/Models";
-// import TestimonialsPage from "./Pages/TestimonialsPage";
-// import Team from "./Pages/Team";
-// import Contact from "./Pages/Contact";
+import Info from "./components/Info/Info";
+import Faq from "./components/Faq/Faq";
 
 function App() {
   return (
-    <>
-      {/* <Navbar /> */}
-      <BrowserRouter>
-        <Routes>
-          <Route index path="/" element={<Home />} />
-          <Route path="learn" element={<Sebastian />} />
-
-          {/* <Route path="about" element={<About />} />
-        <Route path="models" element={<Models />} />
-        <Route path="testimonials" element={<TestimonialsPage />} />
-        <Route path="team" element={<Team />} />
-        <Route path="contact" element={<Contact />} /> */}
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route index path="/" element={<Home />} />
+        <Route path="/about" element={<Sebastian />} />
+        <Route path="/learn" element={<Info />} />
+        <Route path="/faq" element={<Faq />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -8,6 +8,11 @@
   margin: 8rem 0;
   padding: 6rem 0;
   text-align: center;
+  
+
+  .container {
+    background-color: $text-teal;
+}
 }
 
 .banner-content {
@@ -22,7 +27,6 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    // background-color: $text-teal;
 
     h2 {
       font-size: $h1-size;
@@ -42,8 +46,10 @@
     }
 
     span {
-      color: $bg-sand;
-      font-weight: 500;
+      color: #005451;
+      font-weight: 800;
+      border-radius: 0.3rem;
+
     }
   }
 }
