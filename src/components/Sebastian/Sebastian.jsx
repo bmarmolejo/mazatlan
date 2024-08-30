@@ -43,7 +43,6 @@ function Sebastian() {
                 <h3>Apartment Layout</h3>
                 <ul>
                   <li>Two bedrooms, each with a private bathroom.</li>
-                  <li>Half bathroom in the living area.</li>
                   <li>Fully equipped kitchen.</li>
                   <li>In-unit washer and dryer.</li>
                   <li>Private balcony for outdoor enjoyment.</li>
