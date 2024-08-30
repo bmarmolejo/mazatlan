@@ -5,9 +5,9 @@ Welcome to the repository for the Mazatlán Booking Website! This site is design
 ## Features
 
 - **Home Section**: A welcoming section that introduces users to the site.
-- **About Section**: Information about the condo and amenities.
-- **Gallery**: A visual showcase of the condos and the surrounding areas, giving users a glimpse of what to expect.
+- **Learn More Section**: Information about the condo and amenities.
 - **FAQ**: A comprehensive list of frequently asked questions to assist users in planning their stay.
+- **Gallery**: A visual showcase of the condos and the surrounding areas, giving users a glimpse of what to expect.
 
 ## Technologies Used
 
@@ -24,15 +24,11 @@ To view the site locally:
 2. Navigate into the project directory: `cd mazatlan`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
-5. Open your browser and visit `http://localhost:3000`
+5. Open your browser and visit `http://localhost:5173`
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/bmarmolejo/mazatlan-booking/issues) for existing requests or to submit your own.
-
-<!-- ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/bmarmolejo/mazatlan/issues) for existing requests or to submit your own.
 
 ## Contact
 

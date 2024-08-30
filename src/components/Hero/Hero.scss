@@ -6,6 +6,10 @@
   position: relative;
   overflow: hidden;
   // background-color: rgba(0, 0, 0, 0.2);
+
+  @media (max-width: 800px) {
+    height: 102vh;
+  }
 }
 
 .bg-shape {
@@ -15,7 +19,7 @@
   z-index: 3;
   
   @media (max-width: 800px) {
-    display: none;
+    // display: none;
   }
 }
 
@@ -43,6 +47,7 @@
     @media (max-width: 800px) {
       text-align: center;
       align-items: center;
+      background-color: rgba(0, 0, 0, 0.2);
     }
 
     h4 {

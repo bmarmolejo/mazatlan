@@ -29,8 +29,19 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <Link onClick={openNav} to="/contact">
+              <Link
+                onClick={openNav}
+                to="https://form.jotform.com/242406484410248"
+              >
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={openNav}
+                to="hhttps://form.jotform.com/242377954527266"
+              >
+                Book Now
               </Link>
             </li>
           </ul>
@@ -50,24 +61,27 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <Link className="contact-link" to="https://form.jotform.com/242406484410248">
+              <Link
+                className="contact-link"
+                to="https://form.jotform.com/242406484410248"
+              >
                 Contact
               </Link>
             </li>
           </ul>
           <div className="navbar__buttons">
-          <div className="navbar__buttons">
-            {/* <Link className="navbar__buttons__contact" to="/">
-              Contact Us
-            </Link> */}
-          </div>
-            <Link className="navbar__buttons__booking" to="https://form.jotform.com/242377954527266">
+            <Link
+              className="navbar__buttons__booking"
+              to="https://form.jotform.com/242377954527266"
+            >
               Book Now
             </Link>
           </div>
-          
+          {/* mobile */}
+          <div className="mobile-hamb" onClick={openNav}>
+            <i className="fa-solid fa-bars"></i>
+          </div>
         </div>
-        
       </nav>
     </>
   );
