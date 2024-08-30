@@ -94,12 +94,15 @@
 
 //  mobile nav
 .mobile-hamb {
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 3rem;
     display: none; 
     justify-content: space-around;
     flex-flow: column nowrap;
     z-index: 10;
+    background-color: $bg-white; 
+  border-radius: 50%; 
+  padding: 0.5rem;
   
     @media (max-width: 1000px) {
       display: flex; 
