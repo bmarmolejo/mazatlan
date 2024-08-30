@@ -1,4 +1,6 @@
 @use "../../styles/global/" as *;
+
+
 .contact-link {
     color: $text-teal;
     margin-right: 2rem;
@@ -41,7 +43,7 @@
     }
 
     @media (max-width: 1000px) {
-    //   display: none;
+      display: none;
     }
   }
 
@@ -92,24 +94,35 @@
 
 //  mobile nav
 .mobile-hamb {
-  font-size: 2.8rem;
-  display: none;
-  cursor: pointer;
-  transition: all 0.3s;  
-
-  &:hover {
-    color: $text-teal;
+    width: 2rem;
+    height: 2rem;
+    display: none; 
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+  
+    @media (max-width: 1000px) {
+      display: flex; 
+    }
   }
-
-  @media (max-width: 1000px) {
-    display: flex;
+  
+  .burger {
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 10px;
+    background-color: $bg-sand;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+  
+    @media (max-width: 1000px) {
+      display: block; 
+    }
   }
-}
 
 .mobile-navbar {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 70%;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -122,6 +135,7 @@
 
   &__close {
     font-size: 3rem;
+    color: $bg-sand;
     position: absolute;
     top: 3.5rem;
     right: 3.5rem;
@@ -144,7 +158,7 @@
     li {
       a {
         text-decoration: none;
-        color: $text-black;
+        color: $bg-sand;
         font-weight: 500;
         transition: all 0.3s;
 
