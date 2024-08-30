@@ -23,7 +23,6 @@ function Home() {
         <Faq />
       </div>
       <Links />
-
       <Gallery />
     </>
   );

@@ -40,7 +40,7 @@ function Hero() {
             <div className="hero-content__text">
               <h4>Experience the Charm of Mazatlán Before It’s Unveiled</h4>
               <h1>
-                Secure your stay <span>now! </span>
+                Secure your stay starting <span>FEBRUARY 2025! </span>
               </h1>
               <p>
                 Discover a unique opportunity to stay at our brand-new, soon-to-be-completed apartment in the heart of Mazatlán. 

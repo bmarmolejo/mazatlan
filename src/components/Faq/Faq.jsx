@@ -45,8 +45,7 @@ function Faq() {
                   onClick={() => openQ("q1")}
                   className={`faq-box__answer ${getClassAnswer("q1")}`}
                 >
-                  To confirm your reservation and secure your dates, we ask for payment in advance. The idea behind offering this opportunity to family and friends is to gather funds early so we can fully prepare the apartment for your stay. Once payment is received, your dates will be locked in and you can look forward to a comfortable stay in Mazatlán.
-                </div>
+To confirm your reservation and secure your dates, we ask for payment in advance. This allows us to fully prepare the apartment for your stay. Once payment is received, your dates will be locked in, and you can look forward to a comfortable stay in Mazatlán.                </div>
               </div>
               <div className="faq-box">
                 <div
