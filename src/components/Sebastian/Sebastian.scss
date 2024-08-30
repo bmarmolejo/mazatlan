@@ -34,29 +34,27 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     margin-top: 3.7rem;
-    // padding: 0 3rem;
 
     @media (max-width: 1021px) {
       grid-template-columns: 1fr 1fr;
       row-gap: 2rem;
 
       &__box:last-child {
-        grid-column: span 2; // Span across two columns to center the third box
-        justify-self: center; // Center the box horizontally
+        grid-column: span 2;
+        justify-self: center;
       }
-    // }
 
-    @media (max-width: 800px) {
-      grid-template-columns: 1fr;
-      margin-top: 1rem;
+      @media (max-width: 800px) {
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
 
-      &__box:last-child {
-        grid-column: auto; // Reset grid-column for single-column layout
-        justify-self: center; // Center the box horizontally
+        &__box:last-child {
+          grid-column: auto;
+          justify-self: center;
+        }
       }
     }
-  }
-  
+
 
     &__box {
       text-align: center;
