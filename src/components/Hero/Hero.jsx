@@ -38,7 +38,7 @@ function Hero() {
           <img className="bg-shape" src={BgShape} alt="bg-shape" />
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Experience the Charm of Mazatlán Before It’s Unveiled</h4>
+              <h4>Experience the charm of Mazatlán before it’s unveiled</h4>
               <h1>
                 Secure your stay starting <span>FEBRUARY 2025! </span>
               </h1>

@@ -25,8 +25,8 @@ function Faq() {
               <h5>FAQ</h5>
               <h2>Frequently Asked Questions</h2>
               <p>
-                Frequently Asked Questions About the Rental Booking Process
-                on Our Website: Answers to Common Concerns and Inquiries.
+                Frequently asked questions about the rental booking process
+                on our website: Answers to common concerns and inquiries.
               </p>
             </div>
 
@@ -45,7 +45,7 @@ function Faq() {
                   onClick={() => openQ("q1")}
                   className={`faq-box__answer ${getClassAnswer("q1")}`}
                 >
-To confirm your reservation and secure your dates, we ask for payment in advance. This allows us to fully prepare the apartment for your stay. Once payment is received, your dates will be locked in, and you can look forward to a comfortable stay in Mazatlán.                </div>
+To confirm your reservation and secure your dates, we require payment in advance. Once the payment is received, we will finalize all preparations for your stay, ensuring a comfortable experience in Mazatlán.</div>
               </div>
               <div className="faq-box">
                 <div
@@ -53,7 +53,7 @@ To confirm your reservation and secure your dates, we ask for payment in advance
                   onClick={() => openQ("q2")}
                   className={`faq-box__question ${getClassQuestion("q2")}`}
                 >
-                  <p>2. What if I don't know how the apartment will look like inside?</p>
+                  <p>2. What features and comforts are included in the condo?</p>
                   <i className="fa-solid fa-angle-down"></i>
                 </div>
                 <div
@@ -61,8 +61,7 @@ To confirm your reservation and secure your dates, we ask for payment in advance
                   onClick={() => openQ("q2")}
                   className={`faq-box__answer ${getClassAnswer("q2")}`}
                 >
-                  We understand that not knowing the exact decor might raise questions, but rest assured, the apartment will be ready and beautifully prepared for your arrival. While some details are still being finalized, we promise it will be equipped with all the essentials for a comfortable stay. The apartment will feature air conditioning, smart TVs, internet, a cozy bedroom with a queen-size bed, another bedroom with at least twin beds, and a sofa bed in the living room. Our goal is to make it stylish and comfortable for you.
-                </div>
+Our condo is designed with your comfort in mind, offering everything you need for a relaxing stay. You'll enjoy air conditioning, smart TVs, high-speed internet, a cozy bedroom with a queen-size bed, an additional bedroom with twin beds, and a sofa bed in the living room. Our goal is to make the space stylish, welcoming, and perfectly suited for your needs.                </div>
               </div>
               <div className="faq-box">
                 <div
