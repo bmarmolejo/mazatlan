@@ -18,7 +18,7 @@
   top: 0;
   right: 0;
   z-index: 3;
-  
+
   @media (max-width: 800px) {
     // display: none;
   }
@@ -47,7 +47,7 @@
     // background-color: rgba(0, 0, 0, 0.2);
     padding: 3rem;
     border-radius: 0.3rem;
-    
+
     @media (max-width: 800px) {
       text-align: center;
       align-items: center;
@@ -92,11 +92,14 @@
       font-size: $p-size;
       font-family: $text-font;
 
-      @media (max-width: 450px) {
+      @media (max-width: 550px) {
         flex-direction: column;
       }
 
       a {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
         text-decoration: none;
         color: white;
         font-weight: 700;
@@ -106,13 +109,13 @@
         background-color: $text-teal;
         padding: 1.8rem 3rem;
         border-radius: 0.3rem;
-        box-shadow: 0 10px 15px 0 rgba(4, 95, 95, 0.35);
-        transition: all 0.3s;
         border: 2px solid $text-teal;
+        // box-shadow: 0 10px 15px 0 rgba(4, 95, 95, 0.35);
+        transition: all 0.3s;
 
-        @media (max-width: 450px) {
-          padding: 1.8rem 8rem;
-        }
+        // @media (max-width: 450px) {
+        //   padding: 1.8rem 8rem;
+        // }
 
         &:hover {
           box-shadow: 0 10px 15px 0 rgba(4, 95, 95, 0.35);
