@@ -11,7 +11,7 @@ function Sebastian() {
         <div className="container">
           <div className="sebastian-container">
             <div className="sebastian-container__title">
-              <h3>Welcome to Your Coastal Getaway in Mazatlán</h3>
+              <h3>Welcome to your coastal getaway in Mazatlán</h3>
               <h2>Book now and take advantage of early access pricing. </h2>
             </div>
 

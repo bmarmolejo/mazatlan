@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./Navbar.scss";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -19,7 +19,7 @@ function Navbar() {
             <i className="fa-solid fa-xmark"></i>
           </div>
           <ul className="mobile-navbar__links">
-          <li>
+            <li>
               <a onClick={openNav} href="/">
                 Home
               </a>
@@ -87,9 +87,9 @@ function Navbar() {
           {/* mobile */}
           <div className="mobile-hamb" onClick={openNav}>
             {/* <i className="fa-solid fa-bars"></i> */}
-            <div className= "burger burger1"></div>
-            <div className= "burger burger2"></div>
-            <div className= "burger burger3"></div>
+            <div className="burger burger1"></div>
+            <div className="burger burger2"></div>
+            <div className="burger burger3"></div>
           </div>
         </div>
       </nav>
