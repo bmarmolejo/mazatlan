@@ -12,11 +12,10 @@ function Hero() {
   };
 
   const bookBtn = () => {
-    window.location.href = 'https://form.jotform.com/242377954527266';
+    window.location.href = "https://form.jotform.com/242377954527266";
   };
 
   useEffect(() => {
-
     const onPageScroll = () => {
       if (window.pageYOffset > 600) {
         setGoUp(true);
@@ -43,7 +42,8 @@ function Hero() {
                 Secure your stay starting <span>FEBRUARY 2025! </span>
               </h1>
               <p>
-                Discover a unique opportunity to stay at our brand-new, soon-to-be-completed apartment in the heart of Mazatlán. 
+                Discover a unique opportunity to stay at our brand-new,
+                soon-to-be-completed apartment in the heart of Mazatlán.
               </p>
               <div className="hero-content__text__btns">
                 <Link

@@ -1,7 +1,5 @@
 import React from "react";
 import { useState } from "react";
-// import CarBox from "./CarBox";
-// import { CAR_DATA } from "./CarData";
 import "./PickDates.scss";
 
 function PickDates() {

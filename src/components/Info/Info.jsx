@@ -4,7 +4,6 @@ import Box2 from "../../assets/info/icon2.png";
 import Box3 from "../../assets/info/icon3.png";
 import MainImg2 from "../../assets/info/main2.png";
 
-
 import "./Info.scss";
 
 function Info() {
@@ -23,9 +22,19 @@ function Info() {
                 <h4>Beautiful condo in Mazatlán</h4>
                 <h2> Steps away from the beach and malecón</h2>
                 <p>
-                Discover a unique opportunity to experience luxury living in our brand-new, beautifully designed condo in the heart of Mazatlán. 
-                <br /><br />While the final touches are being completed, we're offering this modern space exclusively to family and friends at a special rate. We welcome both short and long-term stays, with payment required to secure your booking. 
-                <br /><br />Enjoy a comfortable and stylish retreat just steps away from Mazatlán’s stunning beaches and vibrant culture. 
+                  Discover a unique opportunity to experience luxury living in
+                  our brand-new, beautifully designed condo in the heart of
+                  Mazatlán.
+                  <br />
+                  <br />
+                  While the final touches are being completed, we're offering
+                  this modern space exclusively to family and friends at a
+                  special rate. We welcome both short and long-term stays, with
+                  payment required to secure your booking.
+                  <br />
+                  <br />
+                  Enjoy a comfortable and stylish retreat just steps away from
+                  Mazatlán’s stunning beaches and vibrant culture.
                 </p>
                 <a href="#home">
                   Book Now &nbsp;
@@ -38,7 +47,12 @@ function Info() {
                   <div className="text-container__right__box__text">
                     <h4>Fully equipped for your comfort</h4>
                     <p>
-                    Our brand-new condo will be fully furnished and will include everything you need to feel at home. Enjoy flat-screen TVs in every room, a fully equipped kitchen with all the essentials, washer and dryer, high-speed Wi-Fi and air conditioning throughout. </p>
+                      Our brand-new condo will be fully furnished and will
+                      include everything you need to feel at home. Enjoy
+                      flat-screen TVs in every room, a fully equipped kitchen
+                      with all the essentials, washer and dryer, high-speed
+                      Wi-Fi and air conditioning throughout.{" "}
+                    </p>
                   </div>
                 </div>
                 <div className="text-container__right__box">
@@ -47,7 +61,10 @@ function Info() {
                   <div className="text-container__right__box__text">
                     <h4>Secure and modern amenities</h4>
                     <p>
-                    Housed on the third floor of a secure tower with 24-hour access, our condo provides peace of mind during your stay. Enjoy access to a community pool, roof garden, and barbecue area, perfect for relaxing and entertaining.
+                      Housed on the third floor of a secure tower with 24-hour
+                      access, our condo provides peace of mind during your stay.
+                      Enjoy access to a community pool, roof garden, and
+                      barbecue area, perfect for relaxing and entertaining.
                     </p>
                   </div>
                 </div>
@@ -57,7 +74,9 @@ function Info() {
                   <div className="text-container__right__box__text">
                     <h4>Prime location</h4>
                     <p>
-                    Located just a short walk from the beach, the Malecón, and a variety of restaurants, our condo offers the perfect spot for enjoying Mazatlán’s vibrant coastal life.
+                      Located just a short walk from the beach, the Malecón, and
+                      a variety of restaurants, our condo offers the perfect
+                      spot for enjoying Mazatlán’s vibrant coastal life.
                     </p>
                   </div>
                 </div>
@@ -65,10 +84,10 @@ function Info() {
             </div>
           </div>
           <img
-              className="choose-container__img2"
-              src={MainImg2}
-              alt="maztlan apartment"
-            />
+            className="choose-container__img2"
+            src={MainImg2}
+            alt="maztlan apartment"
+          />
         </div>
       </section>
     </>

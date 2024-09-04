@@ -77,15 +77,13 @@
 
         a {
           color: white;
-          font-size: $p-size; 
+          font-size: $p-size;
           text-decoration: none;
-          background-color: $text-teal; 
+          background-color: $text-teal;
           border-radius: 30px;
           padding: 1rem;
 
           &:hover {
-            // box-shadow: 0 10px 15px 0 rgba(4, 95, 95, 0.35);
-            // border-radius: 50px;
             transition: all 0.3s ease 0s;
             color: $bg-sand;
           }
