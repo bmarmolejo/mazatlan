@@ -1,10 +1,11 @@
 @use "../../styles/global/" as *;
 
-.faq-section {
-  padding: 10rem 0;
+.price-section {
+  padding-top: 2rem;
+  padding-bottom: 10rem;
 }
 
-.faq-content {
+.price-content {
   display: flex;
   flex-direction: column;
   color: $text-black;
@@ -31,6 +32,28 @@
       color: $text-black;
     }
   }
+
+  &__button {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+
+    button {
+      background-color: $text-teal;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 2rem 3rem;
+      font-size: 1.8rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: darken($text-teal, 10%);
+      }
+    }
+  }
 }
 
 .all-questions {
@@ -40,7 +63,7 @@
   margin-top: 7rem;
 }
 
-.faq-box {
+.price-box {
   display: flex;
   flex-direction: column;
   color: $text-black;
