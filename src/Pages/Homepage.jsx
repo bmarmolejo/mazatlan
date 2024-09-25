@@ -20,11 +20,11 @@ function Home() {
         <Banner />
         <Info />
       </div>
-      <div id="faq">
-        <Faq />
-      </div>
       <div id="prices">
         <Prices />
+      </div>
+      <div id="faq">
+        <Faq />
       </div>
       <Links />
       <Gallery />
