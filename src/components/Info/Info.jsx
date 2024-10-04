@@ -49,7 +49,7 @@ function Info() {
                     <p>
                       Our brand-new condo will be fully furnished and will
                       include everything you need to feel at home. Enjoy
-                      flat-screen TVs in every room, a fully equipped kitchen
+                      flat-screen TV, a fully equipped kitchen
                       with all the essentials, washer and dryer, high-speed
                       Wi-Fi and air conditioning throughout.{" "}
                     </p>

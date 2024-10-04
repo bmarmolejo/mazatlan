@@ -42,7 +42,7 @@ function Sebastian() {
                 <img src={Condo} alt="icon_img" />
                 <h3>Apartment Layout</h3>
                 <ul>
-                  <li>Two bedrooms, each with a private bathroom.</li>
+                  <li>Two bedrooms, the main bedroom has a private bathroom, and there's a half bathroom for guests.</li>
                   <li>Fully equipped kitchen.</li>
                   <li>In-unit washer and dryer.</li>
                   <li>Private balcony for outdoor enjoyment.</li>
